@@ -41,17 +41,19 @@
         margin-bottom: 5rem;
     
         .heading-primary-main {
-            letter-spacing: 3.5rem;
-            font-size: 6rem;
+            letter-spacing: 2.6rem;
+            font-size: 6.25rem;
             animation-name: moveInLeft;
             animation-duration: 1s;
             animation-timing-function: ease-out;
+            font-weight: 400;
         }
     
         .heading-primary-sub {
             letter-spacing: 1.25rem;
-            font-size: 3rem;
+            font-size: 2.6rem;
             animation: moveInRight 1s ease-out;
+            font-weight: 400;
         }
     }
     
@@ -65,19 +67,19 @@
     .btn:visited {
         text-transform: uppercase;
         font-size: 2rem;
-        border-radius: 50px;
+        border-radius: 5rem;
         text-transform: uppercase;
         text-decoration: none;
         transition: all .2s;
     }
 
     .btn:hover{
-        transform: translateY(-3px);
+        transform: translateY(-.3rem);
         box-shadow: 0 10px 20px rgba(0,0,0,0.2);
     }
 
     .btn:active{
-        transform: translateY(-1px);
+        transform: translateY(-.1rem);
         box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     }
     
